@@ -1,0 +1,51 @@
+Just initial thoughts on fields needed, final will be JSON format and live in a MongoDB instance served up in a container.
+
+users
+    name
+        first
+        middle
+        last
+        preferred
+    dob
+    ssn
+    address
+        street
+        city
+        state
+        zip
+        country
+    phones
+        home
+        mobile
+        work
+    last_login
+    tokens
+        token
+        expires
+    passwords
+        hash
+        active
+        createdAt
+        
+patient_records
+    date
+    service
+    notes
+    prescriptions
+        prescription
+            name
+            date
+            dosage
+            refills
+            expiration
+            notes
+
+providers
+    name   
+        first
+        middle
+        last
+    license#
+    specialties
+        name
+        description
